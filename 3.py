@@ -15,6 +15,7 @@ def guess_number():
             print('Ваше число МЕНЬШЕ загаданного')
             is_win = False
         else:
+            
             print('Вы выиграли!')
             is_win = True
     if not is_win:
