@@ -10,6 +10,8 @@ else:
     if triangle_sides[0] == triangle_sides[1] == triangle_sides[2]:
         print('Этот треугольник равносторонний')
     elif triangle_sides[0] == triangle_sides[1] or triangle_sides[1] == triangle_sides[2] or triangle_sides[0] == triangle_sides[2]:
+        
         print('Этот треугольник равнобедренный')
     else:
+
         print('Этот треугольник разносторонний')
